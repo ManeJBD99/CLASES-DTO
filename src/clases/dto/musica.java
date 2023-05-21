@@ -7,8 +7,8 @@ package clases.dto;
 /**
  *
  * @author manuc
- */
-public class musica {
+ *
+ public class musica {
     
     private String autor;
     private String emisora;
@@ -28,7 +28,7 @@ public class musica {
     public String getEmisora(){
         return emisora;
     }
-    public void setApellido(String emisora){
+    public void setEmisora(String emisora){
         this.emisora = emisora;
     }
     
@@ -36,7 +36,7 @@ public class musica {
         return grupo;
     }
     
-    public void setEdad(String grupo){
+    public void setGrupo(String grupo){
         this.grupo = grupo;
     }
     
@@ -44,7 +44,7 @@ public class musica {
         return reconocimiento;
     }
     
-    public void setOrigen(String reconocimiento){
+    public void setReconocimiento(String reconocimiento){
         this.reconocimiento = reconocimiento;
     }
     public String getCategoria(){
@@ -62,4 +62,5 @@ public class musica {
     public void setProduccion(String producccion){
         this.producccion = producccion;
     }
+         
 }
