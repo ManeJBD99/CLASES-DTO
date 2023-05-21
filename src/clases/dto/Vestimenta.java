@@ -9,7 +9,7 @@ package clases.dto;
  * @author manuc
  */
 public class Vestimenta {
-        private String tela;
+    private String tela;
     private String diseñador;
     private String marca;
     private String modelo;
@@ -60,8 +60,8 @@ public class Vestimenta {
         return costo;
     }
     
-    public void setCosrto(Integer costo){
+    public void setCosto(Integer costo){
         this.costo = costo;
     }
-
+         
 }
