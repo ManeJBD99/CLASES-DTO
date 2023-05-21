@@ -8,14 +8,14 @@ package clases.dto;
  *
  * @author manuc
  *
- public class musica {
+public class musica {
     
     private String autor;
     private String emisora;
     private String grupo;
     private String reconocimiento;
     private String categoria;
-    private String producccion;
+    private String produccion;
     
     public String getAutor(){
         return autor;
@@ -56,11 +56,11 @@ package clases.dto;
     }
     
     public String getProduccion(){
-        return producccion;
+        return produccion;
     }
     
-    public void setProduccion(String producccion){
-        this.producccion = producccion;
+    public void setProduccion(String produccion){
+        this.produccion = produccion;
     }
          
 }
