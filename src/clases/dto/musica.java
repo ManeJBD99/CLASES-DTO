@@ -9,7 +9,8 @@ package clases.dto;
  * @author manuc
  */
 public class musica {
-        private String autor;
+    
+    private String autor;
     private String emisora;
     private String grupo;
     private String reconocimiento;
@@ -58,8 +59,7 @@ public class musica {
         return producccion;
     }
     
-    public void setSigno(String producccion){
+    public void setProduccion(String producccion){
         this.producccion = producccion;
     }
-
 }
